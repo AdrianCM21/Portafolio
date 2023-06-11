@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'PatrickHand';
+    src: url('font/PatrickHand-Regular.ttf') format('truetype');
+  }
+/* Barra de navegacion */
+*{
+    font-family: "PatrickHand","Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    margin: 0%;
+}
+.nav{
+    width: 100%;
+    height: 12.4%;
+   display:flex;
+   flex-direction: row;
+   position: fixed;
+   justify-content: space-between; 
+   background-color: #fff;
+   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.nav-links{
+    display:flex ;
+    align-items: center;
+    margin: 0px 20px;
+    flex:2;
+    justify-content: right;
+
+}
+.btn{
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 1.3em;
+    color: #fff;
+    background-color: #5abccc;
+    border: 3.5px solid #000;
+    box-shadow: 5px 5px 2px  #000;
+}
+.nav-title{
+    color: #000;
+    margin: 15px 50px;
+    flex:1;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 0px 20px;
+    font-size: 1.5em;
+    transition: 400ms;
+}
+li{
+    list-style-type: none;
+}
+a:hover{
+    color: #247fbb;
+    font-size: 2em;
+}
+.img-perfil{
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+/* Presentacion */
+#sec-1{
+    width: 100%;
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    padding: 200px 0px 130px 0px;
+    background-image: url(image/isai-ramos-_3SFFsWqCVg-unsplash.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.frase p{
+    font-size: 3em;
+    color: #fff;
+}
+/* sobre mi  */
+#sobreMi{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.h2-title-sobreMi{
+    font-size: 4em;
+    padding-top: 30px;
+}
+.conten-sobreMi{
+    font-size: 2em;
+    padding: 20px 100px 100px 100px;
+}
+
+/* Habilidades */
+#Habilidades{
+    width: 100vw;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+}
+.title-habilidades{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 7px 0px #000;
+}
+.title-habilidades .h2-title-sobreMi{
+    font-size: 5.3em;
+}
+.conten-habilidades{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    margin-top: 80px;
+}
+.p-habilidades{
+    font-size: 2.3em;
+    margin: 10px;
+}
+
+/* Educacion */
+#Educacion{
+    width: 100vw;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+
+}
+h2.edu{
+    color: #fff;
+    margin: 10px 0px 10px 20px ;
+}
+.educT{
+    font-size: 3.4em;
+    margin-bottom: -10px;
+}
+.educF{
+    font-size: 1.9em;
+    color: #343434;
+}
+.conten-Educacion{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 0px 0px 80px;
+    margin:  0px;
+}
+#Educacion .title-habilidades{
+    height: 270px;
+    background-image: url(image/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+/* contacto */
+#Contacto{
+    display: flex;
+    width: 100vw;
+    height: 570px;
+    flex-direction: column;
+    align-items: center;
+}
+.conten-contacto{
+    display: flex;
+}
+.Buton-contacto{
+   border: none;
+    background-color: #fff;
+}
+
+/* Proyectos */
+#Proyecto{
+    width: 100vw;
+    /* height: 730px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+
+}
+#Proyecto .title-habilidades{
+    height: 270px;
+    background-image: url(image/585940.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+#Proyecto a{
+    color: #247fbb;
+    font-size: 1em;
+}
+
+.conten-proyecto{
+    margin: 2em 0px;
+   }
+ .conten-proyecto:first{
+    margin-top:0px ;
+ }
